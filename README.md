@@ -74,11 +74,11 @@ SUM:                            37            109            100            543
 ### Lines We Need to Write
 
 Many lines come free with the new app generators, but if we attempt to narrow
-the lines that we would need to write to make the applications go, then these
-required approximately
+the lines that we would need to write to make the applications go, unit tests
+included, then these required approximately
 
   * LiveView
-    * 70 lines of Elixir
+    * 123 lines of Elixir
     * 13 lines of HTML template code
   * Angular
     * 274 lines of TypeScript
@@ -86,6 +86,6 @@ required approximately
 
 In this rough example, the LiveView implementation includes a resiliant backend
 with dynamic, server-side rendered responses being generated in 380µs. For this,
-we only wrote about **27% of the lines of code** and had a whole lot less to
+we only wrote about **44% of the lines of code** and had a whole lot less to
 worry about.
 
